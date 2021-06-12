@@ -35,3 +35,7 @@ Installation should be done beforehand
 5. Open terminal in Visual Studio code (or command prompt, if preferred), locate Front folder `cd Front` and run `npm i` to install node module
 6. also locate Back folder `cd Back` and run `npm i`
 7. In case there are an vulnerabilities warning after installing, use `npm audit fix --force` to solve
+
+### Setting Up database
+
+1. Open db.js inside 
