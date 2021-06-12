@@ -18,6 +18,8 @@ To fully utilize the software and manual, The reader is required to have basic k
 - Github Desktop (Optional)
 - PGAdmin (or Beekeeper studio on Mac os)
 
+and 
+
 - Express.js
 - React
 - Node.js
@@ -28,5 +30,8 @@ Installation should be done beforehand
 
 1. (For Github Desktop) Open https://github.com/PoonkasemK/Sharitys -> Code (green button) -> Open with Github Desktop, and clone the repository to local
 2. Or Open https://github.com/PoonkasemK/Sharitys -> Code (green button) -> download zip, and extract it in local
-3. Or run git clone https://github.com/PoonkasemK/Sharitys in command prompt
+3. Or run `git clone https://github.com/PoonkasemK/Sharitys` in command prompt
 4. Open the repository in Visual Studio Code
+5. Open terminal in Visual Studio code (or command prompt, if preferred), locate Front folder `cd Front` and run `npm i` to install node module
+6. also locate Back folder `cd Back` and run `npm i`
+7. In case there are an vulnerabilities warning after installing, use `npm audit fix --force` to solve
