@@ -18,7 +18,7 @@ To fully utilize the software and manual, The reader is required to have basic k
 
 - Visual Studio Code (or any supported IDE)
 - Github Desktop (Optional)
-- PGAdmin (or Beekeeper studio on Mac os)
+- PGAdmin 4 (or Beekeeper studio on Mac os)
 
 and 
 
@@ -30,14 +30,19 @@ Installation should be done beforehand
 
 ### Getting Start
 
+![github](https://user-images.githubusercontent.com/75840386/121769537-61b55380-cb8e-11eb-963f-2e0009ce8e8e.JPG)
+
 1. (For Github Desktop) Open https://github.com/PoonkasemK/Sharitys -> Code (green button) -> Open with Github Desktop, and clone the repository to local
 2. Or Open https://github.com/PoonkasemK/Sharitys -> Code (green button) -> download zip, and extract it in local
-3. Or run `git clone https://github.com/PoonkasemK/Sharitys` in command prompt
+3. Or run `git clone https://github.com/PoonkasemK/Sharitys` in command prompt![vs](https://user-images.githubusercontent.com/75840386/121769638-f15b0200-cb8e-11eb-93ab-37728608de46.JPG)
 4. Open the repository in Visual Studio Code
 5. Open terminal in Visual Studio code (or command prompt, if preferred), locate Front folder `cd Front` and run `npm i` to install node module
-6. also locate Back folder `cd Back` and run `npm i`
+6. Also locate Back folder `cd Back` and run `npm i`
 7. In case there are an vulnerabilities warning after installing, use `npm audit fix --force` to solve
 
 ### Setting Up database
 
-1. Open db.js inside 
+1. Create a new database in pgAdmin
+2. In VS code, Open database.sql in Back folder (If any warning come out, close it) ![sql](https://user-images.githubusercontent.com/75840386/121769991-dee1c800-cb90-11eb-9816-be2abe990509.JPG)
+3. Copy the content inside database.sql, and query it in the newly created database. This will create a proper database with sample project in it
+4. 
