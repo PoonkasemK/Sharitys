@@ -12,12 +12,21 @@ In short, Sharitys is an online donation platform for nonprofit fundraisers that
 
 To fully utilize the software and manual, The reader is required to have basic knowledge of PostgreSQL, Express.js, React and Node.js (PERN stack).
 
-### Tools
-
-- Visual Studio Code (or any supported IDE)
-- PGAdmin (or Beekeeper studio on Mac os)
-
-Tools should be downloaded beforehand
-
 ### Installation
 
+- Visual Studio Code (or any supported IDE)
+- Github Desktop (Optional)
+- PGAdmin (or Beekeeper studio on Mac os)
+
+- Express.js
+- React
+- Node.js
+
+Installation should be done beforehand
+
+### Getting Start
+
+1. (For Github Desktop) Open https://github.com/PoonkasemK/Sharitys -> Code (green button) -> Open with Github Desktop, and clone the repository to local
+2. Or Open https://github.com/PoonkasemK/Sharitys -> Code (green button) -> download zip, and extract it in local
+3. Or run git clone https://github.com/PoonkasemK/Sharitys in command prompt
+4. Open the repository in Visual Studio Code
