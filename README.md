@@ -70,9 +70,17 @@ Installation should be done beforehand
 
 ### Accessible Function
 
-**Donor**
-- All project / Project type: show every project in Sharitys, or filter using type
-- Contact us: The information of the create
+- Login: Login as Fundraiser, Fonor or Admin
+- Register: Register as Donor or Fundraiser
+
+**Donor / Annonymous donor (Not logging in)**
+- All project / Project type: Show every project in Sharitys, or filter using type
+- Contact us: The information of the web creator
+- Search: Search the project using a keyword
+- Project Information: Show the status, owner, social media, gift, online sharing and time left of the project
+- Project Update: See the latest update from the project's owner
+- Project Status: Satch the list of donor of the project
+- Donate: using a credit/debit card or internet banking to donate
 
 ### Remark
 
