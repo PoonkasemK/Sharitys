@@ -68,6 +68,12 @@ Installation should be done beforehand
 1. In both Back and Front folder, in terminal or command prompt, use `npm start` respectively
 2. Upon using `npm start` in Front folder, the default browser will automatically open Sharitys in localhost:3000
 
+### Accessible Function
+
+**Donor**
+- All project / Project type: show every project in Sharitys, or filter using type
+- Contact us: The information of the create
+
 ### Remark
 
 - The project mostly use Thai language
