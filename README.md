@@ -52,7 +52,7 @@ Installation should be done beforehand
 //   host: "ec2-107-22-83-3.compute-1.amazonaws.com",
 //   port: 5432,
 //   database: "d31fi06dh1fhkn",
-// });` comment out `const pool = new Pool({
+// });` and comment out `const pool = new Pool({
   connectionString:
     "postgres://ymzexsjcrviqmb:33fd9fccb7182c4d7aac0e7fbe83db1c68be780ad52185e8928c577b938e7a49@ec2-107-22-83-3.compute-1.amazonaws.com:5432/d31fi06dh1fhkn",
   ssl: {
@@ -60,3 +60,15 @@ Installation should be done beforehand
   },
 });`
 5. user: "postgres", password: your database password, host: "localhost", port: 5432, database: your database name
+
+### Starting Sharitys
+
+![inex](https://user-images.githubusercontent.com/75840386/121770721-3eda6d80-cb95-11eb-987a-f5026231f182.JPG)
+
+1. In both Back and Front folder, in terminal or command prompt, use `npm start` respectively
+2. Upon using `npm start` in Front folder, the default browser will automatically open Sharitys in localhost:3000
+
+### Remark
+
+- The project mostly use Thai language
+- The project can be run without database setup, but no project will be shown 
