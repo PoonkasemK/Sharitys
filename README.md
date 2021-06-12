@@ -12,3 +12,12 @@ In short, Sharitys is an online donation platform for nonprofit fundraisers that
 
 To fully utilize the software and manual, The reader is required to have basic knowledge of PostgreSQL, Express.js, React and Node.js (PERN stack).
 
+### Tools
+
+- Visual Studio Code (or any supported IDE)
+- PGAdmin (or Beekeeper studio on Mac os)
+
+Tools should be downloaded beforehand
+
+### Installation
+
