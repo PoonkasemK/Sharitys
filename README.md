@@ -72,3 +72,4 @@ Installation should be done beforehand
 
 - The project mostly use Thai language
 - The project can be run without database setup, but no project will be shown 
+- This senior project is a Copyright of Mahidol University
