@@ -1,5 +1,7 @@
 # Sharitys: An online donation platform for nonprofit fundraisers.
 
+![Sharitys Logo](https://user-images.githubusercontent.com/75840386/121769474-fbc8cc00-cb8d-11eb-8835-52926b5b6810.png)
+
 ## Introduction
 
 Nowadays, Fundraising campaign suffers from the Unreachable problem; Donor rarely sees fundraising campaigns on both internet and reality. Moreover, there is an unpredictable event, like the COVID-19 pandemic, which ceases most physical fundraising activity. The combination of these problems leads to project failure. Sharitys is created to solve this problem.
