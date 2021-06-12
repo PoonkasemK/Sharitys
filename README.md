@@ -44,5 +44,19 @@ Installation should be done beforehand
 
 1. Create a new database in pgAdmin
 2. In VS code, Open database.sql in Back folder (If any warning come out, close it) ![sql](https://user-images.githubusercontent.com/75840386/121769991-dee1c800-cb90-11eb-9816-be2abe990509.JPG)
-3. Copy the content inside database.sql, and query it in the newly created database. This will create a proper database with sample project in it
-4. 
+3. Copy the content inside database.sql, and query it in the newly created database. This will create a proper database with sample project in it ![db](https://user-images.githubusercontent.com/75840386/121770442-83650980-cb93-11eb-9b98-e7b7beb9e62f.JPG)
+
+4. Open db.js, uncomment `// const pool = new Pool({
+//   user: "ymzexsjcrviqmb",
+//   password: "33fd9fccb7182c4d7aac0e7fbe83db1c68be780ad52185e8928c577b938e7a49",
+//   host: "ec2-107-22-83-3.compute-1.amazonaws.com",
+//   port: 5432,
+//   database: "d31fi06dh1fhkn",
+// });` comment out `const pool = new Pool({
+  connectionString:
+    "postgres://ymzexsjcrviqmb:33fd9fccb7182c4d7aac0e7fbe83db1c68be780ad52185e8928c577b938e7a49@ec2-107-22-83-3.compute-1.amazonaws.com:5432/d31fi06dh1fhkn",
+  ssl: {
+    rejectUnauthorized: false,
+  },
+});`
+5. user: "postgres", password: your database password, host: "localhost", port: 5432, database: your database name
