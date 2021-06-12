@@ -1,0 +1,12 @@
+.Footer__title {
+  text-align: center;
+  color: white;
+}
+
+.Footer__title-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #8b92b2;
+  text-align: center;
+}

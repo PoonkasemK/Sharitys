@@ -1,0 +1,29 @@
+.EditProject__Title {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.EditProject__sub-menu {
+  text-align: right;
+  font-family: KanitExtraLight;
+}
+
+.EditProject__Img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.EditProject__Upload-Img {
+  align-content: center;
+}
+
+.EditProject__input {
+  display: flex;
+  flex-direction: column;
+}
+
+.EditProject__Edit-image {
+  border: solid black;
+  width: 80%;
+  margin: auto;
+}

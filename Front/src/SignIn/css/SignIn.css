@@ -1,0 +1,17 @@
+.login__register-button {
+  background-color: #ffcb7d;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: inline-block;
+  border: none;
+}
+
+.login__Title {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.login__separator {
+  font-family: KanitExtraLight;
+}

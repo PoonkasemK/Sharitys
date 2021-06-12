@@ -1,0 +1,8 @@
+.ManageProject__title {
+  margin-top: 2em;
+  text-align: center;
+}
+.UploadProjPic__Img {
+  width: 100%;
+  object-fit: contain;
+}

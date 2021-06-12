@@ -1,0 +1,9 @@
+.Blog__Title {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.AboutUs__image {
+    max-width:100%;
+    max-height:100%;
+}

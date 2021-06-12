@@ -1,0 +1,9 @@
+.UpdateProgress__title {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.UploadProgPic__img {
+  width: 100%;
+  object-fit: contain;
+}

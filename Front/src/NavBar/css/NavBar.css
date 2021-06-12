@@ -1,0 +1,20 @@
+.navBar__container {
+  height: 7em;
+  background: linear-gradient(90deg, #ffffff 75%, #ff8c42 75%);
+}
+
+.navBar__brand-name {
+  font-family: KanitThin;
+  font-size: 47px !important;
+}
+
+.navBar__menu-font,
+.navBar__sub-menu-font,
+.navBar__menu-font-fundraiser {
+  font-size: large !important;
+  font-family: KanitLight;
+}
+
+.navBar__menu-font:hover {
+  color: black !important;
+}

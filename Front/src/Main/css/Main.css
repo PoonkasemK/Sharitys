@@ -1,0 +1,24 @@
+.main__main-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.main__all-project {
+  text-align: center;
+}
+
+.main__main-button {
+  font-size: large !important;
+}
+
+.main__main-button:hover {
+  font-size: large !important;
+  font-family: KanitLight;
+  color: black;
+}
+
+.main__main-container {
+  text-align: center;
+}

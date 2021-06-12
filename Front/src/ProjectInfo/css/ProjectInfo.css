@@ -1,0 +1,73 @@
+.ProjectInfo__title,
+.ProjectInfo__sub-title {
+  text-align: center;
+}
+
+.ProjectInfo__menu {
+  text-decoration: underline;
+  color: black;
+  text-align: center;
+}
+
+.ProjectInfo__menu-current {
+  text-decoration: underline;
+  color: #ff8c42;
+  text-align: center;
+}
+
+.ProjectInfo__line {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.ProjectInfo__image {
+  width: 100%;
+  height: 100%;
+}
+
+.ProjectInfo__status {
+  font-family: KanitBold;
+  color: #73b320;
+}
+
+.ProjectInfo__status-terminated {
+  font-family: KanitBold;
+  color: red;
+}
+
+.ProjectInfo__owner {
+  font-family: KanitLight;
+}
+
+.ProjectInfo__goal {
+  font-family: KanitLight;
+}
+
+.ProjectInfo__button {
+  bottom: 0%;
+  color: black !important;
+}
+
+.ProjectInfo__text {
+  font-size: large;
+  text-indent: 50px;
+}
+
+.ProjectInfo__flag {
+  color: #ff8c42;
+}
+
+.ProjectInfo__SNS {
+  color: black;
+}
+
+.ProjectInfo__gift {
+  text-align: center;
+  align-items: center;
+  vertical-align: bottom;
+}
+
+.ProjectInfo__danger-button {
+  color: white;
+}

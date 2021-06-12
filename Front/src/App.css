@@ -1,0 +1,31 @@
+@import-normalize;
+@import "./NavBar/css/NavBar.css";
+@import "./fonts/Font.css";
+@import "./Main/css/Main.css";
+@import "./EditProject/css/EditProject.css";
+@import "./AboutUs/css/AboutUs.css";
+@import "./Blog/css/Blog.css";
+@import "./CreateProject/css/CreateProject.css";
+@import "./SignIn/css/SignIn.css";
+@import "./AllProject/css/CardView.css";
+@import "./ProjectInfo/css/ProjectInfo.css";
+@import "./Footer/css/Footer.css";
+@import "./Share/css/share.css";
+@import "./Omise/css/Omise.css";
+@import "./ManageProject/css/ManageProject.css";
+@import "./Transfer/css/Transfer.css";
+@import "./UpdateProgress/css/UpdateProgress.css";
+@import "./Profile/css/profile.css";
+
+* {
+  font-family: Kanit, sans-serif;
+  box-sizing: border-box;
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}

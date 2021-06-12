@@ -1,0 +1,15 @@
+.AboutUs__title-container {
+    background-color:  #8B92B2;
+}
+
+.AboutUs__title {
+    text-align: center;
+    color: white;
+}
+
+.AboutUs__main-image, .AboutUs__member, .AboutUs__contact {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
