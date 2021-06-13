@@ -59,7 +59,12 @@ Installation should be done beforehand
     rejectUnauthorized: false,
   },
 });`
-5. user: "postgres", password: your database password, host: "localhost", port: 5432, database: your database name
+5. user: "postgres", password: database password, host: "localhost", port: 5432, database: database name
+
+### Creating firebase (Optional)
+
+- There is an existing firebase which allows user to login and register as donor and fundraiser. However, admin is not allowed to register in the website.
+- To manage account, as well as registering admin, create a project in firebase and edit the information in key.js in Front folder
 
 ### Starting Sharitys
 
@@ -70,17 +75,55 @@ Installation should be done beforehand
 
 ### Accessible Function
 
-- Login: Login as Fundraiser, Fonor or Admin
-- Register: Register as Donor or Fundraiser
+**Annonymous donor (Not logging in)**
 
-**Donor / Annonymous donor (Not logging in)**
 - All project / Project type: Show every project in Sharitys, or filter using type
 - Contact us: The information of the web creator
 - Search: Search the project using a keyword
 - Project Information: Show the status, owner, social media, gift, online sharing and time left of the project
 - Project Update: See the latest update from the project's owner
 - Project Status: Satch the list of donor of the project
-- Donate: using a credit/debit card or internet banking to donate
+- Donate: using A credit/debit card or internet banking to donate
+- Login: Login as Fundraiser, Fonor or Admin
+- Register: Register as Donor or Fundraiser
+
+![donor](https://user-images.githubusercontent.com/75840386/121796104-c204cd80-cc40-11eb-88dd-e94eb0f1b879.JPG)
+
+**Donor**
+- All project / Project type: Show every project in Sharitys, or filter using type
+- Contact us: The information of the web creator
+- Search: Search the project using a keyword
+- Project Information: Show the status, owner, social media, gift, online sharing and time left of the project
+- Project Update: See the latest update from the project's owner
+- Project Status: Satch the list of donor of the project
+- Donate: using A credit/debit card or internet banking to donate
+- Donor's information: Show name, email and sign in method of the currently logged in donor
+- Payment method: Show the used payment method of the donor
+- History: Show the donate history of the donor
+- Sign out: log out
+
+![fd](https://user-images.githubusercontent.com/75840386/121796178-64bd4c00-cc41-11eb-8df0-2fc555a13d14.JPG)
+
+**Fundraiser**
+- Suggestion article: Contains useful information for fundraisers
+- Create project: Create a new project
+- Manage project: See information, edit and withdraw fund of the own project
+- Contact us: The information of the web creator
+- Search: Search the project using a keyword
+- Fundraiser's information: Show name, email and sign in method of the currently logged in fundraiser
+- Sign out: log out
+
+![ad](https://user-images.githubusercontent.com/75840386/121796406-ebbef400-cc42-11eb-9be1-133f4d424adb.JPG)
+
+**Admin**
+- All project / Project type: Show every project in Sharitys, or filter using type
+- Approve project: Approve the requested project from fundraiser
+- Manage all project: Edit or terminate any project
+- Terminate time out project: Terminate the project that exceeding the active time
+- Terminate requested project: Terminate the project that is requested by the fundraiser
+- Set urgent project: Set the project to be urgent to be shown in urgent project type
+- Search: Search the project using a keyword
+- Sign out: log out
 
 ### Remark
 
